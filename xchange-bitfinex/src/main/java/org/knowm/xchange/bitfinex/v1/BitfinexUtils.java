@@ -54,6 +54,8 @@ public final class BitfinexUtils {
         return "dash";
       case "TETHER":
         return "tether";
+      case "IOT":
+        return "iota";
       default:
         throw new BitfinexException("Cannot determine withdrawal type.");
     }
